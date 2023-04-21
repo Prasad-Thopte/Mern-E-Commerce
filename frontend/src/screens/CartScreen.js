@@ -51,7 +51,7 @@ const CartScreen = () => {
                             {cart.name}
                           </Link>
                         </h5>
-                        <h4 className="py-2">${cart.price}</h4>
+                        <h4 className="py-2">Rs. {cart.price}</h4>
                       </Col>
                       <Col>
                         <FormControl
@@ -96,7 +96,7 @@ const CartScreen = () => {
                       ) Items
                     </h4>
                     <h5 className="mt-3">
-                      $
+                      Rs.  
                       {cartItems
                         .reduce((acc, item) => acc + item.qty * item.price, 0)
                         .toFixed(2)}

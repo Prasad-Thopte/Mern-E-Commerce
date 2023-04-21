@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Banner from "../components/banner/Banner";
 import { listProduct } from "../redux/actions/productActions";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -8,7 +9,12 @@ import Loading from "../components/Loading";
 import Message from "../components/Message";
 import Meta from "../components/Meta";
 import Paginate from "../components/Paginate";
-import ProductCarousel from "../components/ProductCarousel";
+import ProductCarousel from "../components/ProductCarousel/ProductCarousel";
+import "../components/banner/Banner.css";
+import Advertise from "../components/ads/ads";
+import "../components/ads/Advertise.css";
+
+
 
 const HomeScreen = () => {
   let params = useParams();
@@ -26,9 +32,15 @@ const HomeScreen = () => {
 
   return (
     <>
+
+
+
       <Meta title="Clothshop | Home" />
       {/* {!keyword && <ProductCarousel />} */}
-      <h3>Latest Products</h3>
+     
+      <Banner/>
+      <Advertise/>
+      <ProductCarousel/>
       <Row>
         {loading ? (
           <Loading />

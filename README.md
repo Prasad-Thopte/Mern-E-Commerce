@@ -2,8 +2,6 @@
 
 Online Clothing Store using the MERN stack
 
-![screenshot](https://i.ibb.co/kDtJPNy/clothshop.png)
-
 ## Features:
 
 - Product reviews and ratings
@@ -17,7 +15,7 @@ Online Clothing Store using the MERN stack
 - Mark orders as delivered option
 - Checkout process (shipping, payment method, etc)
 - PayPal / credit card integration
-- Database seeder (products & users)
+- Database  (products & users)
 
 ## Technology Stack:
 
@@ -47,9 +45,23 @@ PAYPAL_CLIENT_ID = your paypal client id
 ## Install Dependencies
 
 ```
+Root Directory
 npm install
+
 cd frontend
 npm install
+
+cd backend
+npm install
+ 
+In some cases you have to update your dependencies
+in that case
+cd  backend 
+npm update --force
+
+cd frontend
+npm update --force
+
 ```
 
 ### Run
@@ -57,23 +69,46 @@ npm install
 ```
 # Run frontend (:3000) & backend (:5000)
 npm run dev
+this command will run server and client side conccurently
 
 # Run backend only
 npm run server
 ```
 
-### Seed Database
 
-You can use the following commands to seed the database with some sample users and products as well as destroy all data
 
-```
+
+
+
 # Import data
-npm run data:import
+to import data 
+use mongoCompass
+create a database or select database
+create collection 
+orders
+products
+users
+use add data and select JSON file From /Data folder
 
-# Destroy data
-npm run data:destroy
-```
+# To Place an Order using Paypal
 
-- Version: 1.0.0
-- License: MIT
-- Author: Said Mounaim
+use demo paypal account or 
+use demo credit card details as follows
+Generated Credit Card Details
+
+Card Type: Visa
+Card Number: 4032032471691573
+Expiration Date: 03/2026
+CVV: 809
+
+# Admin Access
+to access admin account
+goto login page
+enter following details
+email : admin@sample.com
+password: admin123
+
+
+# create user account
+you can create user account by just entering few details on register page
+to place an order

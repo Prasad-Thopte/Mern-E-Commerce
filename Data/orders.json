@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "64011354a703fc7315a04b54"
+  },
+  "user": {
+    "$oid": "64010ee2a703fc7315a04a3d"
+  },
+  "orderItems": [
+    {
+      "name": "Sports Bra & Legging Tracksuit ",
+      "qty": 1,
+      "image": "/uploads\\image-1677789552477-331282438.jpg",
+      "price": 610,
+      "product": {
+        "$oid": "64010971a703fc7315a04972"
+      },
+      "_id": {
+        "$oid": "64011354a703fc7315a04b55"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Warje",
+    "city": "Pune",
+    "postalCode": "411023",
+    "country": "India"
+  },
+  "paymentMethod": "PayPal",
+  "taxPrice": 91.5,
+  "shippingPrice": 0,
+  "totalPrice": 701.5,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677792084300"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677792084300"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "640113d6a703fc7315a04b8c"
+  },
+  "user": {
+    "$oid": "63ffbbe9ab2cc047d80f5861"
+  },
+  "orderItems": [
+    {
+      "name": "Uptownie Lite Women's Stretchable Solid Fit & Flare Skater Sleeveless Dress",
+      "qty": 1,
+      "image": "/uploads\\image-1677790017702-335909381.jpg",
+      "price": 649,
+      "product": {
+        "$oid": "64010b43a703fc7315a049bd"
+      },
+      "_id": {
+        "$oid": "640113d6a703fc7315a04b8d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Warje",
+    "city": "Pune",
+    "postalCode": "411023",
+    "country": "India"
+  },
+  "paymentMethod": "PayPal",
+  "taxPrice": 97.35,
+  "shippingPrice": 0,
+  "totalPrice": 746.35,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677792214716"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677792214716"
+    }
+  },
+  "__v": 0
+}]

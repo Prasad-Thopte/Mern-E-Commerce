@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import Message from "./Message";
-import Loading from "./Loading";
+import Message from "../Message";
+import Loading from "../Loading";
 import { Carousel, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { listTopProducts } from "../redux/actions/productActions";
-
+import { listTopProducts } from "../../redux/actions/productActions";
+import "../ProductCarousel/ProductCarousel.css";
+// Product Carousel below hero image section
 const ProductCarousel = () => {
   const dispatch = useDispatch();
   const productsTopRated = useSelector((state) => state.productsTopRated);
@@ -20,11 +21,11 @@ const ProductCarousel = () => {
   ) : error ? (
     <Message variant="danger">{error}</Message>
   ) : (
-    <Carousel pause="hover" className="bg-dark">
+    <Carousel pause="hover" className="bg-dark size">
       {products.map((product) => (
         <Carousel.Item key={product._id}>
           <Link to={`/product/${product._id}`}>
-            <Image src={product.image} alt={product.name} fluid />
+            <Image className="img" src={product.image} alt={product.name} fluid />
             <Carousel.Caption className="carousel-caption">
               <h2>{product.name}</h2>
             </Carousel.Caption>

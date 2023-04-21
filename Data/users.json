@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Prasad Kundalik Thopte",
+  "email": "pt1462@gmail.com",
+  "password": "$2b$10$x6CXS4BF8S6cm.R7sWdhiuBaSDz8WUjZdi5Ii9FvfC5tTstkfY.e.",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677628256751"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677628256751"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63ffbbe9ab2cc047d80f5861"
+  },
+  "name": "Pradnya",
+  "email": "panu3896@gmail.com",
+  "password": "$2b$10$.Fz6bvhdrdmnUv7.fZLqHeBYKA.CuEdnaidD7wdtgXeeHOVUKxRtm",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677704169171"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677704169171"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010ee2a703fc7315a04a3d"
+  },
+  "name": "Dhanashri Dalvi",
+  "email": "dhanashri@gmail.com",
+  "password": "$2b$10$4iEoGpWJMwk742CvA2rlduYB5n35R537jHooVPoj9IIRw0mxho1Pm",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790946910"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790946910"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6401122ea703fc7315a04b0c"
+  },
+  "name": "Prasad Thopte",
+  "email": "admin@sample.com",
+  "password": "$2b$10$ChJsd5Pzu7DJhSYCSixhTOQwpPLejILIXYkYnFEo4W4czt7M44HjO",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677791790018"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677791790018"
+    }
+  },
+  "__v": 0
+}]

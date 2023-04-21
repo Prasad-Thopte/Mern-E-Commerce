@@ -1,0 +1,458 @@
+[{
+  "_id": {
+    "$oid": "640108c8a703fc7315a04960"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "LEOTUDE Cotton Blend Half Sleeve Oversized T-Shirts",
+  "image": "/uploads\\image-1677789382846-308802945.jpg",
+  "brand": "LEOTUDE",
+  "category": "Oversized T-Shirts",
+  "description": "Care Instructions: Hand Wash Only Fit Type: Oversized Fit Neck Style: Round Sleeve Type: Half Sleeve Pattern : Printed Color : Orange Occasion Type: Oversized",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 334,
+  "countInStock": 9,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677789384496"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677789384496"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010971a703fc7315a0496f"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Allen Solly Men's Regular Fit Polo",
+  "image": "/uploads\\image-1677789670694-684907094.jpg",
+  "brand": "Allen Solly ",
+  "category": "T-Shirt",
+  "description": "Care Instructions: Wash with mild detergent, do not bleach, dry in shade Fit Type: Regular Fit Occasion : Casual Fit : Regular Fit Material : 60% Cotton and 40% Polyester Neck : Polo Neck Pattern : Solid",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 579,
+  "countInStock": 6,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677789553691"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677789671649"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010971a703fc7315a04972"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Sports Bra & Legging Tracksuit ",
+  "image": "/uploads\\image-1677789552477-331282438.jpg",
+  "brand": "NDLESS SPORTS",
+  "category": "Tracksuit ",
+  "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fabric – Made of polyester & spandex for made of better quality product for you in terms of durable, soft, breathable, sweat absorbent & quick drying in a minute. We use interlock stitching in our joggers to make it more durable. This fitness outfits featuring a super soft & skin-friendly material & fashionable color. Sports clothes with several beautiful contrasts of colors to match your closet for a modern and effortless fashion, these gym sets for women 2 pieces were soft to touch, you will look cute in these vibrant colors. NDLESS SPORTS elastic yoga outfit sets are very comfortable to wear designed with wide waistband mildly. The triangle design of crotch makes you feel safe to do a deep squat. U-back Sports Bra: Wire-free, vest style, Padded bra. Breathable fabric keeps you comfortable during your workout. Our gym outfits have ribbed textured non-slip design that can keep it in place when you walk around. Our Yoga set are suitable for an everyday active lifestyle like sports, zoomba class, yoga, exercise, fitness, gym, walking, jogging, running, cycling, boxing, bowling, tennis, any type of workout, or everyday use. Color & Care – We have lots of color option in this beautiful pair of yoga set you can choose accordingly. This dress can be hand washed when needed. Dipping in warm water with mild soap makes it as clean as new. Keep hung in shade for dry after washing it.",
+  "rating": 4,
+  "numReviews": 1,
+  "price": 610,
+  "countInStock": 6,
+  "reviews": [
+    {
+      "name": "Dhanashri Dalvi",
+      "rating": 4,
+      "comment": "fit wise very nice color so good\nloved it ",
+      "user": {
+        "$oid": "64010ee2a703fc7315a04a3d"
+      },
+      "_id": {
+        "$oid": "64010fd5a703fc7315a04a6e"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1677791189761"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1677791189761"
+        }
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677789553987"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677791189761"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "64010a4da703fc7315a0499a"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Levi's Men's Regular Fit T-Shirt",
+  "image": "/uploads\\image-1677789771907-432307997.jpg",
+  "brand": "Levi's",
+  "category": "T-Shirt",
+  "description": "Care Instructions: Machine Wash Fit Type: Regular Fit Levi's Crew Neck Tee",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 916,
+  "countInStock": 7,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677789773445"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677789773445"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010aa9a703fc7315a049a6"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Van Heusen Men's Regular Fit Polo Shirt",
+  "image": "/uploads\\image-1677789874781-182610407.jpg",
+  "brand": "Van Heusen",
+  "category": "T-Shirt",
+  "description": "Care Instructions: Machine Wash Fit Type: Regular Fit Occasion : Leisure Sport Pattern : Solid Fit :Regular Fit Material: 60%Cotton40%Polyester Sleeves : Half Sleeves",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 899,
+  "countInStock": 9,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677789865483"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677789875942"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010b43a703fc7315a049bd"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Uptownie Lite Women's Stretchable Solid Fit & Flare Skater Sleeveless Dress",
+  "image": "/uploads\\image-1677790017702-335909381.jpg",
+  "brand": "Uptownie",
+  "category": "Flare Skater",
+  "description": "Care Instructions: Machine Wash Fit Type: Regular Fit Type: Regular Neck Type: Round Neck Fabric: 95% Polyester, 5% Spandex; The fabric is very stretchy Style: Dress Pattern: Solid",
+  "rating": 4,
+  "numReviews": 2,
+  "price": 649,
+  "countInStock": 8,
+  "reviews": [
+    {
+      "name": "Dhanashri Dalvi",
+      "rating": 5,
+      "comment": "Just Awesome fitting and material",
+      "user": {
+        "$oid": "64010ee2a703fc7315a04a3d"
+      },
+      "_id": {
+        "$oid": "64010f3aa703fc7315a04a4a"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1677791034277"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1677791034277"
+        }
+      }
+    },
+    {
+      "name": "Pradnya",
+      "rating": 3,
+      "comment": "stylish dress",
+      "user": {
+        "$oid": "63ffbbe9ab2cc047d80f5861"
+      },
+      "_id": {
+        "$oid": "640113cda703fc7315a04b83"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1677792205653"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1677792205653"
+        }
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790019424"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677792205653"
+    }
+  },
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "64010bdaa703fc7315a049c9"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Veirdo® Free Size White Loose Fit Believer Typography Printed 100% Cotton T-Shirt",
+  "image": "/uploads\\image-1677790169084-918817275.jpg",
+  "brand": "Veirdo",
+  "category": "T-Shirt",
+  "description": "Care Instructions: Machine Wash Fit Type: Loose Fit Size: Free Size (People wearing sizes- S,M,L,XL,2XL,3XL) can also wear. Design and Style: Trending Color combination design which gives extra ordinary casual look and it is very comfortable to wear Usage: This t-shirt comes in Free Size, can be worn by anyone of any size, also we use Premium Quality cotton that helps you feel fresh and for a long lasting use. Pairing: This T-shirt is easy to be paired with your Jeans, skinny leggings, jeggings and shorts, etc. Material Composition: 100 % Cotton",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 589,
+  "countInStock": 12,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790170022"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790170022"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010c81a703fc7315a049f7"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "MANQ Men's Slim Fit Single Breasted Blazer",
+  "image": "/uploads\\image-1677790336304-644582649.jpg",
+  "brand": "MANQ",
+  "category": "Blazer",
+  "description": "Fabric: Poly Viscose Wash Care: Dry Clean Only Style: Single Breasted; Pattern: Solid Fit: Slim Fit; Closure: Buttoned Occasion: Formal; Number of outside pockets: 2",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 2156,
+  "countInStock": 4,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790337591"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790337591"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010cd8a703fc7315a04a04"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Gauri Laxmi Enterprise Men's Cotton Blend Yellow Haldi Special Kurta",
+  "image": "/uploads\\image-1677790423204-970343183.jpg",
+  "brand": "Gauri Laxmi Enterprise",
+  "category": "Kurta",
+  "description": "Care Instructions: Hand Wash Only Fit Type: Straight Kurta Only Cotton blend fabric Available sizes: 32 (2XS) to 46 (3XL)",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 198,
+  "countInStock": 25,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790424336"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790424336"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010d25a703fc7315a04a0b"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "JUGULAR Men's Slim Fit Track pants",
+  "image": "/uploads\\image-1677790500499-348995681.jpg",
+  "brand": "JUGULAR",
+  "category": "Track pants",
+  "description": "Care Instructions: Hand Wash Only Fit Type: Slim Style: Cargo Track Pant, Pocket : 4 Colour : Dark Green, Fit type: Regular fit Fabric GSM: 270 GSM Age Range Description: Adult; Closure Type: Elastic; Rise Style: Mid",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 474,
+  "countInStock": 19,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790501280"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790501280"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010d84a703fc7315a04a16"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Be savage Letterman Unisex Varsity Jacket Black",
+  "image": "/uploads\\image-1677790572958-515328488.jpg",
+  "brand": "Be savage",
+  "category": "Jacket",
+  "description": "Care Instructions: Machine Wash Fit Type: Regular Closure Type: Button; Age Range Description: Adult; Sleeve Type: Long Sleeve. Our varsity jacket is made of light and soft fabric. Lightweight and stylish, the best active coat for Spring, Fall and Winter season indoor /outdoor wearing. This letterman jacket designed for the slim fit style, especially the sleeves are mainly fit in most persons. The buttons on the varsity jacket are of high quality, not easy to loose or fall. The cut of the neck area is very gentle which make you feel comfortable. THE ORIGINAL VARSITY LETTERMAN JACKET. Street-style for individuals, teams, clubs and groups. Suitable for casual wear, dates, school, camping, street wear, sports, parties and and outdoor sport etc",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 825,
+  "countInStock": 8,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790596157"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790596157"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010ddba703fc7315a04a1f"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "Madnoo Women`s Casual Sleeveless Printed Top",
+  "image": "/uploads\\image-1677790682499-156055047.jpg",
+  "brand": "Madnoo ",
+  "category": "Top",
+  "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Top Size Chart : Bust XS-32, S-34, M-36, L-38, XL-40 inch,XXL-42 Fit Type: Regular as well as casuals. Skin friendly: soft, comfortable and breathable. Match: With jeans, jeggings, leggings, Pants. Care Instructions: Hand Wash & Machine Wash.",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 399,
+  "countInStock": 12,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790683247"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790683247"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010e1ea703fc7315a04a28"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "SWORNOF Women's Lucknowi Chikankari Linen cotton Woven Sarees For Women with Blouse sarees for Women",
+  "image": "/uploads\\image-1677790749617-357899400.jpg",
+  "brand": "SWORNOF ",
+  "category": "Saree",
+  "description": "Care Instructions: Dry Clean Only Material : Soft Cotton Design : Lucknowi Chikankari Hand Weaving Work Features : Saree With Blouse Piece Style : The Texture And Weight Of The Saree Brings Image Prints One Step Closer To The Originals And Invites Attention Occasion : Sarees for women, festive, traditional saree. Best birth-day gift for your loved ones. Each piece is elegantly crafted and will surely add to your wardrobe By SWORNOF women's Lakhanowi style cotton saree from SWORNOF on amazon",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 557,
+  "countInStock": 4,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790750463"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790750463"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64010e7da703fc7315a04a2f"
+  },
+  "user": {
+    "$oid": "63fe9360d3d1f8162f25b821"
+  },
+  "name": "UZARUS Womens Dry Fit Workout Top Sports Gym T-Shirt",
+  "image": "/uploads\\image-1677790844349-207656922.jpg",
+  "brand": "UZARUS",
+  "category": " Gym T-Shirt",
+  "description": "Care Instructions: DO NOT BLEACH, DO NOT TUMBLE DRY, COOL IRON, DRY CLEAN Fit Type: Regular Fit Fabric: Polyester. Soft and breathable. Advanced Rapid Dry Technology processed at the yarn level wicks sweat & dries fast. Anti-odor technology prevents the growth of odour-causing microbes keeping you fresh & hygienic all day. Anti-odor technology prevents the growth of odour-causing microbes keeping you fresh & hygienic all day. Style: Designed for comfort and great for all year round use Proudly made in India. Please refer to the \"size chart\" in the product images for a perfect fit.",
+  "rating": 0,
+  "numReviews": 0,
+  "price": 379,
+  "countInStock": 13,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677790845268"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677790845268"
+    }
+  },
+  "__v": 0
+}]

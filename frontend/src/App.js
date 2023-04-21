@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+
+import Footer from "./components/footer/Footer";
 import { Container } from "react-bootstrap";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
@@ -20,14 +21,18 @@ import ProductListScreen from "./screens/ProductListScreen";
 import CreateProductScreen from "./screens/CreateProductScreen";
 import EditProductScreen from "./screens/EditProductScreen";
 import OrderListScreen from "./screens/OrderListScreen";
+import Products from "./screens/Products";
 
 const App = () => {
   return (
     <BrowserRouter>
+    {/* haeder is commonly use in every page */}
       <Header />
       <main className="py-4">
         <Container>
           <Routes>
+          {/*setting path to locate pages */}
+            <Route path="/products" element={<Products />} />
             <Route path="/product/:id" element={<ProductScreen />} />
             <Route path="/cart" element={<CartScreen />} />
             <Route path="/login" element={<LoginScreen />} />
@@ -78,17 +83,17 @@ const App = () => {
             <Route path="/admin/orders" element={<OnlyAdmin />}>
               <Route path="/admin/orders" element={<OrderListScreen />} />
             </Route>
-            <Route path="/page/:pageNumber" element={<HomeScreen />} />
+            <Route path="/page/:pageNumber" element={<Products/>} />
             <Route
               path="/search/:keyword/page/:pageNumber"
               element={<HomeScreen />}
             />
-            <Route path="/search/:keyword" element={<HomeScreen />} />
+            <Route path="/search/:keyword" element={<Products />} />
             <Route index path="/" element={<HomeScreen />} />
           </Routes>
         </Container>
       </main>
-
+      {/* Comman footer page on every page  */}
       <Footer />
     </BrowserRouter>
   );

@@ -14,7 +14,7 @@ import {
 import { listProductDetails } from "../redux/actions/productActions";
 import Loading from "../components/Loading";
 import Message from "../components/Message";
-import products from "../products";
+
 import Rating from "../components/Rating";
 import { addToCart } from "../redux/actions/cartActions";
 import { createProductReview } from "../redux/actions/productActions";
@@ -86,7 +86,7 @@ const ProductScreen = () => {
                       text={`${product.rating} Reviews`}
                     />
                   </ListGroup.Item>
-                  <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+                  <ListGroup.Item>Price: Rs. {product.price}</ListGroup.Item>
                   <ListGroup.Item>
                     Description: {product.description}
                   </ListGroup.Item>
@@ -99,7 +99,7 @@ const ProductScreen = () => {
                       <Row>
                         <Col>Price:</Col>
                         <Col>
-                          <strong>${product.price}</strong>
+                          <strong>Rs.{product.price}</strong>
                         </Col>
                       </Row>
                     </ListGroup.Item>
